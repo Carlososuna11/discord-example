@@ -16,14 +16,14 @@ You will learn the essential basis of the construction of our first bot, which i
 The programming language we will use is JS, which does not need to be a professional to program this bot, and you will see that if you take the pleasure of the thing, you will add more functions to your discord server and everything will be more simplified thanks to our bot.
 
 ### Requirements
-⋅⋅* A [Discord](https://discordapp.com/) Account.
-⋅⋅* A [GitHub](https://github.com/) Account.
-⋅⋅* A [Heroku](https://www.heroku.com/) Account.
-⋅⋅* Basic knowledge of JavaScript.
-⋅⋅* Some patience.
++ A [Discord](https://discordapp.com/) Account.
++ A [GitHub](https://github.com/) Account.
++ A [Heroku](https://www.heroku.com/) Account.
++ Basic knowledge of JavaScript.
++ Some patience.
 
 ### Difficulty
-⋅⋅* Easy
++ Easy
 
 ### Creating your Bot on Discord
 Open the following link and login using your discord account:
@@ -32,15 +32,15 @@ https://discordapp.com/developers/applications/me
 We will create a new application, in this application we will have all the data of our bot once created, in if we can change the name to make the bot public or not.
 
 Create a New Application.
-![create](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmNZ6jCCzszrJPPGdrusu1r416P4EBeGN4eQY5RToQQspQ)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmgzMvqUU6zxogUGEhWfkK8YcuMB5Gp954vj5LUTojXJiFBg9ua58mEBqNtqB6?format=match&mode=fit&width=640)
 
 Follow this instruction and Create a new application - Name Your App, Select an Avatar/Icon, and click "Create App."
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmXQDWQRRfRZxMtK3UVHNTH5vhoPqCA6jYsS7cQzA29h9J)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmkEHL6KKsZw5aQUL4MPiueX3JYSDwdHEmkYtfmDacg176n2MWiPmVyJ71QWWD?format=match&mode=fit&width=640)
 
 Once the App is created, select it and Click on "Create a Bot User." Confirm and Choose "Yes. Do It!" on the box that pops up.
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmTWTPUqJHVbdrhd6jXt3AxWrPwoWpBKfPBdrgWxh73jot)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmiwJBaQZ5sAUY5YRM5whYE6UNNVu249QhMpk13SNbd422XUTcKicW4unLVHcP?format=match&mode=fit&width=640)
 
 Make sure to take Note of the Client ID and Token. You will need these later when you begin programming your bot. Do not share this information!
 
@@ -59,7 +59,7 @@ Once created our GitHub account, go with the following link to GitHub to create 
 
 For this tutorial, it is necessary to use 3 scripts, the main one, so to speak, which will contain both the bot's information and everything that can be programmed to it.
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmZeg6Um9d9x6UPCCpbToYfqTEAcs9Ye5Pr6eAUEEQpe5P)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmkuUtMww5h7A1tLFzqtmKYGiB6zw4h8Fbb5mXjSUZCPzdkcGxkJTNGgd86fEF?format=match&mode=fit&width=640)
 
 This is our main script, whose name is `bot.js.`
 
@@ -141,40 +141,40 @@ And last but not least the Procfile, you'll wonder what the hell is that, well, 
 `Procfile`
 `worker: node bot.js`
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmVLZUX2ZdYtviU26MQmR3r7xfUa9pBtL6YLQ4LqkwfNNa)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmjaCowxgjHpfV9NsbmRkRDTfSarpuS8eY7Bi3BsMYV5Cjcr5aBhwLmVsHGuLk?format=match&mode=fit&width=640)
 
 Our git structure, should appear like this, do not worry if you notice different or feel that this something bad, it can always happen, err is human and is part of our learning, if you want, go directly to the repository link and take as reference that.
 
 ### Uploading the Script to a Server
 Heroku is a platform as a cloud computing service that supports different programming languages.
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmQp4bm3TzjqDnaRiSFP9uK7kjeE889qPXDx47jv4YWS8T)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmhzZBCVcwVLQnry4LLL4WSqs96RdhWNUB6JD82gq9xF5kp65R2pAaKj6hRTSb?format=match&mode=fit&width=640)
 We will take advantage of that Heroku service to keep our bot activated
 
 We will create a new board where the script will be uploaded here the link:
 https://dashboard.heroku.com/apps
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmWTKXaJZxherxpU5gYaRzxM5JcyTetr4K94fiNTNudjZf)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmjZpnBxvk7nyYKvegYg4QTQyrGTP8PCDTKXrJ9KhezcMcCzj1dFVVKhnPnXCy?format=match&mode=fit&width=640)
 
 Let's go to the resources section and select github.
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmVG2RJ4hk7wzNZJhkNNyZcwvQB7eCKvTrh3naoNeGSCUv)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmo9woPN6wtcr2gnHyViojpb12CfHMPxfKz2J9fLrSqZXKFB7f79ySJSVysBdP?format=match&mode=fit&width=640)
 
 Here we select our GitHub repository.
 We will select enable automatic desploy.
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmaPyPKthUKcjPDgTSR5kvYFatVHGtfoqpizZBvgUKtpH6)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmo9woPN6wtcr2gnHyViojpb12CfHMPxfKz2J9fLrSqZXKFB7f79ySJSVysBdP?format=match&mode=fit&width=640)
 
 Now we have to select what script we are going to work on, for that we go to resources and in free dynos we deselect the web and activate the worker
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmSFSb9ti7jR3CSbFuULiDyeufoEW3PDw8W6HxevMPqZTg)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmibBmnEtsZRCH58k7EhryE43QEyCHCu75iW2twFPwU6BmE4ty9YJhDkR2aKuY?format=match&mode=fit&width=640)
 
 And our script would be online and working, but now we need to tell the script which bot is the one that is going to be linked to the script, that's why we go for settings
 
 Then we will find an option called config variables,
 add a new variable whose key will be `BOT_TOKEN` and the value of that variable will be the token of our bot.
 
-![](https://steemitimages.com/640x0/https://ipfs.busy.org/ipfs/QmaSJUpdS9qzpbqPqqf49tnVuVCAFY4zPCEapse4HesQHf)
+![](https://steemitimages.com/p/7ohP4GDMGPrUMp8dW6yuJTR9MKNu8P8DCXDU9qmmoA9qKuSXvPK6RLwooCT93xhdF8F57yvWPZu3XLLXxGAjRMcKmAw8evEEiTfB?format=match&mode=fit&width=640)
 
 Then that would be everything, and the script knows what the bot is going to look for, here is a picture with the result of the tutorial we just made.
 
